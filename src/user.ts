@@ -2,8 +2,9 @@ export interface User {
     id: number;
     name: string;
     email: string;
+    password: string;
 }
 
-export function getUserDisplayName(user: User) {
-    return `${user.name} <${user.email}>`;
+export function printUser(user: User) {
+    console.log(user);
 }
