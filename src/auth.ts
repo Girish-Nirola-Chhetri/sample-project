@@ -11,3 +11,8 @@ export function authenticate(token: string): User | null {
 
     return null;
 }
+
+
+export function login(email: string, passwrod: string ) {
+    return "logged in"
+}
